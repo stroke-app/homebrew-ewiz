@@ -1,14 +1,17 @@
 cask "ewiz" do
-  version "0.18.2"
-  sha256 "eae20cf6de7b813a7fa509a78623a235071fc456329ccc3fec59961caf3fe749"
+  version "0.18.3"
+  sha256 "c3b24f56fe05e2e962ca7f2254cf19db6f650d799e51230af6ddec87cc4dc0db"
 
-  url "https://github.com/stroke-app/ewiz/releases/download/v0.18.2/eWiz-0.18.2.dmg"
+  url "https://github.com/stroke-app/ewiz/releases/download/v0.18.3/eWiz-0.18.3.dmg"
   name "eWiz"
   desc "Menu bar battery saver and charge limiter for Apple Silicon Macs"
   homepage "https://ewiz.app"
 
   depends_on macos: :sonoma
   depends_on arch: :arm64
+
+  # eWiz installs signed updates itself; brew shouldn't treat that as drift.
+  auto_updates true
 
   app "eWiz.app"
 
