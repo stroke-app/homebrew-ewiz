@@ -1,8 +1,8 @@
 cask "ewiz" do
-  version "0.19.1"
-  sha256 "be12a4e01a64e0f479e3317f3be4304e7bb8909b6103fb8fb661225ece22b156"
+  version "0.19.2"
+  sha256 "e130964b727c2ee5355187e5a90dd33ac7b3951d33bca091118d90e83455ab5b"
 
-  url "https://github.com/stroke-app/ewiz/releases/download/v0.19.1/eWiz-0.19.1.dmg"
+  url "https://github.com/stroke-app/ewiz/releases/download/v0.19.2/eWiz-0.19.2.dmg"
   name "eWiz"
   desc "Menu bar battery saver and charge limiter for Apple Silicon Macs"
   homepage "https://ewiz.app"
